@@ -1,3 +1,5 @@
+![demo](demo.gif)
+![demo](demo2.gif)
 Expanding upon the weather concept, and drawing from my passion to travel and explore the world
 I conceptualized, UI/UX designed and coded this React App which depends on connecting two completely unrelated APIs
 one for weather conditions and one for photo search

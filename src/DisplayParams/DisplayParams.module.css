@@ -1,0 +1,70 @@
+h2 span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+h3 {
+  padding-top: 0.5rem;
+}
+
+.clock {
+  font-weight: 600;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.sideConditions {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem;
+}
+
+h3 span {
+  font-weight: 600;
+}
+
+.iconImg {
+  width: 50px;
+}
+
+.description {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-top: 1rem;
+}
+.description p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-top: 1rem;
+  color: rgba(255, 255, 0, 0.849);
+}
+
+.mainTemp {
+  font-size: 8rem;
+  margin: 1.5rem;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.minTemp {
+  border-right: 1px solid whitesmoke;
+  padding-right: 2rem;
+  margin-right: 2rem;
+}

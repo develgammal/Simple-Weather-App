@@ -1,0 +1,52 @@
+.welcomeScreen h1 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.welcomeScreen h1 span:first-of-type {
+  color: #ffd400;
+}
+.welcomeScreen h1 span:last-of-type {
+  font-weight: 400;
+}
+
+.welcomeImg {
+  width: 250px;
+  margin: 2rem auto;
+}
+
+input {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: white;
+  padding: 0.5rem;
+  max-width: 80%;
+  height: 3rem;
+  background-color: #d0e5f2b9;
+  border: none;
+  outline: inherit;
+  border-radius: 25px;
+  margin: 1rem auto;
+}
+
+footer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.loading {
+  font-size: 1.3rem;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 60vh;
+  margin-bottom: 0.5rem;
+}
+
+.errorMsg {
+  font-size: 1.5rem;
+  text-align: center;
+  color: red;
+  margin-bottom: 0.5rem;
+}

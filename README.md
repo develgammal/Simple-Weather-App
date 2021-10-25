@@ -12,6 +12,8 @@ The App provides a custom background with an iconic picture of a given city 	:ci
 and by looping over custom css filters to paint the sky according to the weather conditions :sun_behind_rain_cloud:
 (rainy, snowy, etc..), it gives the user an authentic experience and "temperature feel" when they interact with the app.
 
+# Technical Features
+
 The Color object property from the photo search API which extracts the dominant color tone from the provided picture proved to be useful under the hood 👌,
 by providing a temporary background color for users with slower connections until the target picture is loaded, and priming their eyes for the picture they 
 are about to see with a color similar to the picture, instead of the awkward transient white screen which breaks the flow :film_strip:; needless to say, backup default universl background was provided in case the search API encountered an issue or broke for any reason.

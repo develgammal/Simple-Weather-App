@@ -1,6 +1,4 @@
-Live:
-
-amrosimpleweather.netlify.app/
+[Deployed Website](https://amrosimpleweather.netlify.app/)
 
 ![demo](demo1.gif)
 

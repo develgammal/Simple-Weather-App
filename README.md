@@ -1,4 +1,5 @@
-Live WEbsite:
+Live:
+
 amrosimpleweather.netlify.app/
 
 ![demo](demo1.gif)

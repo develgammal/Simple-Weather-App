@@ -1,4 +1,4 @@
-[Deployed Website](https://amrosimpleweather.netlify.app/)
+[Click here for Deployed Website Link](https://amrosimpleweather.netlify.app/)
 
 ![demo](demo1.gif)
 

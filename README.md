@@ -1,4 +1,5 @@
 <a href="https://amrosimpleweather.netlify.app/" target="_blank">Click here for Deployed Website Link</a>
+[Click here for Deployed Website Link](https://amrosimpleweather.netlify.app/){:target="_blank"}
 
 ![demo](demo1.gif)
 

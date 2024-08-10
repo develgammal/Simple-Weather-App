@@ -1,50 +1,62 @@
+/* Styles for the span element inside h2 */
 h2 span {
   font-size: 1.2rem;
   font-weight: 600;
 }
 
+/* Styles for h3 */
 h3 {
   padding-top: 0.5rem;
 }
 
+/* Styles for elements with class "clock" */
 .clock {
   font-weight: 600;
 }
 
+/* Styles for the header element */
 header {
   text-align: center;
 }
 
+/* Styles for h1 inside header */
 header h1 {
   margin-bottom: 0.5rem;
   font-weight: 700;
 }
 
+/* Styles for the main element */
 main {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
 }
 
+/* Styles for elements with class "sideConditions" */
 .sideConditions {
   display: flex;
   justify-content: space-between;
   margin: 0.5rem;
 }
 
+/* Styles for span elements inside h3 */
 h3 span {
   font-weight: 600;
 }
 
+/* Styles for elements with class "iconImg" */
 .iconImg {
   width: 50px;
 }
 
+/* Styles for elements with class "description" */
 .description {
   display: flex;
   flex-flow: row nowrap;
   padding-top: 1rem;
 }
+
+/* Styles for p elements inside .description */
 .description p {
   font-size: 1.5rem;
   font-weight: 600;
@@ -52,17 +64,20 @@ h3 span {
   color: rgba(255, 255, 0, 0.849);
 }
 
+/* Styles for elements with class "mainTemp" */
 .mainTemp {
   font-size: 8rem;
   margin: 1.5rem;
 }
 
+/* Styles for the aside element */
 aside {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
 }
 
+/* Styles for elements with class "minTemp" */
 .minTemp {
   border-right: 1px solid whitesmoke;
   padding-right: 2rem;

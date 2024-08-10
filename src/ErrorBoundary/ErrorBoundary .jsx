@@ -1,5 +1,8 @@
 import { Component } from "react";
 
+/**
+ * ErrorBoundary component that catches errors in its child components and displays an error message.
+ */
 class ErrorBoundary extends Component {
   constructor(props) {
     super(props);

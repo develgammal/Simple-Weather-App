@@ -3,7 +3,7 @@ import BgParams from "../BgParams/BgParams";
 import dateFormat from "dateformat";
 import styles from "./DisplayParams.module.css";
 
-//imgs srcs
+// Importing image sources
 import humidIcon from "../img/humid.jpg";
 import windIcon from "../img/wind.png";
 import cloudsIcon from "../img/clouds.png";
@@ -11,6 +11,7 @@ import minIcon from "../img/min.png";
 import maxIcon from "../img/max.png";
 
 function DisplayParams({ conditions }) {
+  // Destructuring the 'conditions' object
   let {
     name,
     timezone,
@@ -21,8 +22,10 @@ function DisplayParams({ conditions }) {
     clouds: { all },
   } = conditions;
 
+  // Constructing the icon source URL
   const iconSrc = `http://openweathermap.org/img/wn/${icon}@2x.png`;
 
+  // Calculating local time
   const timeOffset = new Date().getTimezoneOffset();
   const localTime = Date.now() + 60000 * timeOffset + 1000 * timezone;
 

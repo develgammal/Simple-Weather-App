@@ -8,6 +8,7 @@ html {
   box-sizing: inherit;
 }
 
+/* Resetting default styles for common elements */
 body,
 h1,
 h2,
@@ -28,36 +29,35 @@ a {
   color: inherit;
 }
 
+/* Setting styles for images */
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* body  */
-
+/* Setting styles for the body of the page */
 body {
-  font-family: "Quicksand", sans-serif;
-  color: whitesmoke;
-  display: flex;
+  font-family: "Quicksand", sans-serif; /* Setting the font family for the body */
+  color: whitesmoke; /* Setting the text color */
+  display: flex; /* Using flexbox to center the content vertically and horizontally */
   justify-content: center;
   align-items: center;
-  background-color: skyblue;
-  background: url("../img/sky.jpg") center/cover;
-  position: relative;
-  width: 100%;
-  height: 100vh;
+  background-color: skyblue; /* Setting the background color */
+  background: url("../img/sky.jpg") center/cover; /* Setting a background image */
+  position: relative; /* Setting the position to relative */
+  width: 100%; /* Setting the width to 100% */
+  height: 100vh; /* Setting the height to 100% of the viewport height */
 }
 
-/* App  */
-
+/* Setting styles for the App component */
 .App {
-  display: flex;
+  display: flex; /* Using flexbox to arrange the content in a column */
   flex-flow: column nowrap;
   justify-content: center;
-  background-image: linear-gradient(#5eabe66b, #fffefd41);
-  padding: 1rem;
-  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.219);
-  border-radius: 20px;
-  backdrop-filter: blur(10px);
+  background-image: linear-gradient(#5eabe66b, #fffefd41); /* Setting a background gradient */
+  padding: 1rem; /* Adding padding */
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.219); /* Adding a box shadow */
+  border-radius: 20px; /* Adding border radius */
+  backdrop-filter: blur(10px); /* Applying a backdrop filter */
 }
